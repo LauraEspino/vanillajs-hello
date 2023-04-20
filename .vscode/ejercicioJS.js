@@ -29,5 +29,7 @@ function random_items4(items4){
     console.log(random_items3(random3));
 }
 let onLoad(randomParagraph){
-/* sumar console.log 
+    var randomParagraph= random_items1+random_items2+random_items3+random_items4;
+    console.log(randomParagraph);
 }
+console.log(onload(randomParagraph));
