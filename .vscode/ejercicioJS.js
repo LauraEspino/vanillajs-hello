@@ -1,8 +1,19 @@
 let who= ['The dog','My grandma','His turtle','My bird'];
-let action = ['ate','peed','crushed','broke'];
-let what = ['my homework', 'the keys', 'the car'];
-let when = ['before the class','right on time','when I finished','during my lunch','while I was praying'];
+let aleatorioWho= Math.floor(Math.random()*who.length);
 
+
+let action = ['ate','peed','crushed','broke'];
+let aleatorioAction= Math.floor(Math.random()*action.length);
+
+let what = ['my homework', 'the keys', 'the car'];
+let aleatorioWhat= Math.floor(Math.random()*what.length);
+
+let when = ['before the class','right on time','when I finished','during my lunch','while I was praying'];
+let aleatorioWhen= Math.floor(Math.random()*when.length);
+
+let onload=aleatorioWho+" "+aleatorioAction+" "+aleatorioWhat+" "+aleatorioWhen;
+console.log(onload);
+/*
 function random_items1(items1){
     var random1="";{
     return who[Math.floor(Math.random()*who.length)];
